@@ -1,6 +1,8 @@
 Configuration and Persistent Storage
 ====================================
 
+.. _persistent-storage-guide:
+
 .. _train-run-config:
 
 Run Configuration in Train (``RunConfig``)
@@ -25,7 +27,7 @@ The properties of the run configuration are :ref:`not tunable <tune-search-space
 
 .. seealso::
 
-    See the :class:`~ray.air.RunConfig` API reference.
+    See the :class:`~ray.train.RunConfig` API reference.
 
     See :ref:`tune-storage-options` for storage configuration examples (related to ``storage_path``).
 
